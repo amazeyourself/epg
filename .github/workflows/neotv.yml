@@ -29,7 +29,7 @@ jobs:
           pip install lxml
 
       - name: Run script
-        run: "python ./scripts/neotv.py"
+        run: "python ./.github/scripts/neotv.py"
 
       - name: Commit changes if any
         run: |
